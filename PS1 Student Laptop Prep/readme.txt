@@ -1,4 +1,4 @@
-This was a quick script I created in 2020 during my time at a 1:1 school.
+This was a quick script I created in 2020 during my time at a 1:1 school and was ran from a flashdrive.
 Over the summer, devices were returned and were required to be prepped for new students.
 
 I created this script because our department did not want to push a BIOS update via Intune.
