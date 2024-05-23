@@ -12,26 +12,26 @@ while($groupname -ne "exit")
         write-host "Total number of users in group: $usercount"
 
         # Delete users from AD Group
-        if ($usercount -gt 0)
-        {
-            $asktodelete = Read-Host "Delete users from group? (y/n)"
+        # if ($usercount -gt 0)
+        # {
+        #     $asktodelete = Read-Host "Delete users from group? (y/n)"
             
-            if ($asktodelete -eq "y")
-            {
-                Write-Host "Removing users from group"
-                try {
-                    foreach ($user in $users)
-                    {
-                        Remove-ADGroupMember -Identity $groupname -Members $user.SamAccountName -Confirm:$false
-                    }
-                    Write-Host "Users removed"
-                    }
+        #     if ($asktodelete -eq "y")
+        #     {
+        #         Write-Host "Removing users from group"
+        #         try {
+        #             foreach ($user in $users)
+        #             {
+        #                 Remove-ADGroupMember -Identity $groupname -Members $user.SamAccountName -Confirm:$false
+        #             }
+        #             Write-Host "Users removed"
+        #             }
                 
-                catch {
-                    Write-Host "Error: Unable to delete users. Credentials may not have appropriate permissions or admin PS not launched."
-                }
+        #         catch {
+        #             Write-Host "Error: Unable to delete users. Credentials may not have appropriate permissions or admin PS not launched."
+        #         }
 
-            }
+        #     }
         }
     }
 
