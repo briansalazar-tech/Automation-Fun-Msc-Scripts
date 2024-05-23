@@ -32,7 +32,7 @@ while($groupname -ne "exit")
         #         }
 
         #     }
-        }
+        # }
     }
 
     catch {
