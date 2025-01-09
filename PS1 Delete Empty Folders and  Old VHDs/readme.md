@@ -1,3 +1,4 @@
+# Delete EMpty FOlders and Olv VHD Files
 This script was created to delete FSLogix VHD profiles from multiple RDS Session host collections.
 Due to the nature of an academic envirnment, many users would utilize this envirnment however, once students graduated or stopped using the envirnment, their profiles would not be deleted.
 
