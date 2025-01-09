@@ -1,5 +1,6 @@
-This was a quick script I created in 2020 during my time at a 1:1 school and was ran from a flashdrive.\
-Over the summer, devices were returned and were required to be prepped for new students.\
+# Summer Break Student Laptop Prep
+This was a quick script I created in 2020 during my time at a 1:1 school and was ran from a flashdrive.
+Over the summer, devices were returned and were required to be prepped for new students.
 
 I created this script because our department did not want to push a BIOS update via Intune.
 This particular model of of laptptop had a critical flaw that caused the motherboard to be bricked resulting in a few hundred devices needing to be sent out for repair.
