@@ -4,4 +4,3 @@ UserProfilesInTextFile.py is a Python script that processes user profile folders
 The script generates two output files: 
 -	One containing usernames found in the configuration file
 -	Another containing usernames not found in the configuration file.
-
